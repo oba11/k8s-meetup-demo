@@ -29,12 +29,12 @@ kubectl apply -f coffee-svc.yml
 kubectl apply -f tea-svc.yml
 kubectl apply -f coffee.yml
 kubectl apply -f tea.yml
-kubectl create -f python-app-ingress-v2.yml
+kubectl apply -f python-app-ingress-v2.yml
 ```
 
 * Lets scale our apps
 
 ```
-kubectl scale deployment/coffee --replicas=3
-kubectl scale deployment/tea --replicas=3
+kubectl scale deployment/coffee --replicas=2
+kubectl scale deployment/tea --replicas=2
 ```
