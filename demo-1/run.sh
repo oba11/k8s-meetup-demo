@@ -21,15 +21,15 @@ exe curl -Lo kubectl https://storage.googleapis.com/kubernetes-release/release/$
 echo "Making kubectl executable"
 exe chmod +x kubectl
 
-echo 'Check minikube status'
-read -rsn1 -p" "
-echo ''
-exe minikube status
-
 echo 'Start minikube'
 read -rsn1 -p" "
 echo ''
 exe minikube start
+
+echo 'Check minikube status'
+read -rsn1 -p" "
+echo ''
+exe minikube status
 
 echo "Lets run nginx container"
 read -rsn1 -p" "

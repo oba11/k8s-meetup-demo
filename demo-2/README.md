@@ -1,4 +1,4 @@
-# Demo2
+# Demo 2
 
 * Install nginx-ingress controller
 
