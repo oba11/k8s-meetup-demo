@@ -8,7 +8,7 @@ echo "Downloading minikube to '$(pwd)'"
 read -rsn1 -p" "
 echo ''
 OS_NAME=$(echo `uname -s` | tr '[A-Z]' '[a-z]')
-exe curl -Lo minikube https://storage.googleapis.com/minikube/releases/v0.21.0/minikube-${OS_NAME}-amd64
+exe curl -Lo minikube https://storage.googleapis.com/minikube/releases/v0.22.3/minikube-${OS_NAME}-amd64
 
 echo "Making minikube executable"
 exe chmod +x minikube
