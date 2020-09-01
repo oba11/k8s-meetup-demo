@@ -3,8 +3,8 @@
 * Install nginx-ingress controller
 
 ```
-kubectl create -f https://raw.githubusercontent.com/kubernetes/ingress/master/examples/deployment/nginx/default-backend.yaml
-kubectl create -f https://raw.githubusercontent.com/kubernetes/ingress/master/examples/deployment/nginx/nginx-ingress-controller.yaml
+kubectl create -f https://raw.githubusercontent.com/kubernetes/ingress-nginx/master/examples/deployment/default-backend.yaml
+kubectl create -f https://raw.githubusercontent.com/kubernetes/ingress-nginx/master/examples/deployment/nginx-ingress-controller.yaml
 ```
 
 * Create the python app

@@ -3,7 +3,7 @@
 * Install nginx-ingress controller for AWS
 
 ```
-kubectl create -f https://raw.githubusercontent.com/kubernetes/ingress/master/examples/aws/nginx/nginx-ingress-controller.yaml
+kubectl create -f https://raw.githubusercontent.com/kubernetes/ingress-nginx/master/examples/aws/nginx-ingress-controller.yaml
 ```
 
 * Create the python app
